@@ -1,0 +1,15 @@
+[project]
+authors = ["Theo van der Sluijs <theo@vandersluijs.nl>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "gsc_report_mailer"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jinja2 = ">=3.1.5,<4"
+google-api-python-client = ">=2.159.0,<3"
+google-auth = ">=2.37.0,<3"
+matplotlib = ">=3.10.0,<4"
