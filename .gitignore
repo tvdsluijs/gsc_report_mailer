@@ -1,5 +1,11 @@
-configs/config.json
-configs/websites_config.json
+# Ignore configuration files containing sensitive information
+configs/config.py
+configs/websites_config.py
+
+# Ignore temporary or generated files
+comparison_chart.png
+*.log
+*.tmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
